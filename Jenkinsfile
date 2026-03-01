@@ -7,7 +7,7 @@ pipeline{
         stage('cloning the code'){
             steps{
                 echo "cloning the code "
-                git branch: 'test', url: 'https://github.com/mantu0tech/simple-java-app.git'
+                git branch: 'test', url: 'https://github.com/sumittiwari5/simple-java-app.git'
             }
         }
         stage('test the code'){
